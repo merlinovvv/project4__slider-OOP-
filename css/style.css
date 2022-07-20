@@ -1,0 +1,112 @@
+/*null*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	background-color: #fff;
+	color: #6D6D6D;
+	height: 100%;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 18px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top; position: relative; z-index: 1;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+/* style */
+body{
+    background-color: #1b1b1b;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main__title h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+.main__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.307);
+    padding: 30px;
+    border-radius: 12px;
+    max-width:900px;
+    margin: 0 auto;
+}
+.main__slider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.307);
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+    min-height: 455px;
+}
+.slider__images img, .slider__images{
+    max-width: 700px;
+}
+.slider__images img{
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+.slider__btn button{
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    transition: all 0.5s ease;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+.slider__btn button:hover{
+    transition: all 0.5s ease;
+    border-radius: 14px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.307);
+}
+.slider__btn button:disabled{
+    transition: all 0.5s ease;
+    background-color: rgba(255, 255, 255, 0.516);
+}
+.slider__btn button:disabled:hover{
+    transition: all 0.5s ease;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
